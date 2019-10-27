@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Settings>
+    <Sitecore>
+        <Processing>
+            <Services>
+                <TaskServicesFactory>
+                    <Options>
+                        <MovieRecommendationWorker>
+                            <Type>NetflixNext.ProcessingEngine.Extensions.MovieRecommendationWorker, NetflixNext.ProcessingEngine.Extensions</Type>
+                        </MovieRecommendationWorker>
+                        <RecommendationFacetStorageWorker>
+                            <Type>NetflixNext.ProcessingEngine.Extensions.RecommendationFacetStorageWorker, NetflixNext.ProcessingEngine.Extensions</Type>
+                        </RecommendationFacetStorageWorker>
+                    </Options>
+                </TaskServicesFactory>
+                <MovieRecommendationModel>
+                    <Type>NetflixNext.ProcessingEngine.Extensions.MovieRecommendationModel, NetflixNext.ProcessingEngine.Extensions</Type>
+                </MovieRecommendationModel>
+            </Services>
+        </Processing>
+        <XConnect.Client>
+            <Services>
+                <Client.Configuration>
+                    <Options>
+                        <Models>
+                            <MovieModel>
+                                <TypeName>NetflixNext.xConnect.Extensions.MovieModel, NetflixNext.xConnect.Extensions</TypeName>
+                                <PropertyName>Model</PropertyName>
+                            </MovieModel>
+                        </Models>
+                    </Options>
+                </Client.Configuration>
+            </Services>
+        </XConnect.Client>
+    </Sitecore>
+</Settings>

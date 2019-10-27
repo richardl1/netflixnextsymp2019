@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Sitecore.XConnect.Client" Version="9.1.1" />
+    <PackageReference Include="Sitecore.XConnect.Collection.Model">
+      <Version>9.1.1</Version>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NetflixNext.Common\NetflixNext.Common.csproj" />
+  </ItemGroup>
+
+</Project>

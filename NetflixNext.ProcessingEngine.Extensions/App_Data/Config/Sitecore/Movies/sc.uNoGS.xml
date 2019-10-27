@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+    <Sitecore>
+        <Processing>
+            <Services>
+                <MovieRecommendationProvider>
+                    <Type>NetflixNext.ProcessingEngine.Extensions.Providers.MovieRecommendationsProvider, NetflixNext.ProcessingEngine.Extensions</Type>
+                    <As>NetflixNext.ProcessingEngine.Extensions.Providers.IMovieRecommendationsProvider, NetflixNext.ProcessingEngine.Extensions</As>
+                    <LifeTime>Singleton</LifeTime>
+                </MovieRecommendationProvider>
+                <MovieRepository>
+                    <Type>NetflixNext.Common.Services.MovieRepository, NetflixNext.Common</Type>
+                    <As>NetflixNext.Common.Services.IMovieRepository, NetflixNext.Common</As>
+                    <LifeTime>Singleton</LifeTime>
+                </MovieRepository>
+            </Services>
+        </Processing>
+    </Sitecore>
+</settings>
