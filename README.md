@@ -32,5 +32,13 @@
    
 8. Restart all services and sites 
 
+## See Recommendations in Action 
+
+1. Go to front end facing website via url: websitedomain/login and provide your sitecore credentials to login 
+2. You should be redirected to Listing Page which would showcase different type of Listings of Movies. 
+3. Click around your favorite movies from the listings of different types 
+4. Run NetflixNext.Client and select option #2 - This should run Sitecore Cortex Engine to fetch recommendations based on the activity of the user 
+5. Once the application processing is complete.  Close the Client.
+6. Reload the listing page - you should now see recommendations based on user activity
 
 
