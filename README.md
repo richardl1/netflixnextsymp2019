@@ -8,7 +8,7 @@
 
 ## Steps to get the Demo working 
 
-1. Install the package located under (location goes here after check in).  This contains some Marketing Items which are the basis for some of Cortex functions.  This would also contain all Templates, Views, etc., needed by the Demo application 
+1. Install the package located under '/SitecorePackages' in the repository.  This contains some Marketing Items which are the basis for some of Cortex functions.  This would also contain all Templates, Views, etc., needed by the Demo application 
 2. Publish the site. 
 3. Pass your UNogs API key in GetDataFromUnogs method on line 74 in MovieRecommendationsProvider class  httpClient.DefaultRequestHeaders.Add("x-rapidapi-key", "your UNOGS Key");
 4. Ensure to swap the Connection Strings on rebusSettings.xml with your environment specific Messaging Catalog Connection String. 
